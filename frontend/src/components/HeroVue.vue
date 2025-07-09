@@ -1,50 +1,77 @@
 <template>
-  <header class="bg-wallpaper text-start py-12 tes">
+  <header class="bg-wallpaper bg-cover bg-center h-screen flex items-center">
     <section
       id="profil"
-      class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center"
+      class="container mx-auto px-6 py-6 pb-0 flex flex-col md:flex-row items-center gap-6"
     >
-      <div class="md:w-2/3 mb-10 md:mb-0">
+      <div class="md:w-2/3 text-center md:text-left">
         <h1
-          class="text-5xl font-bold text-white mb-4 animate-slide-in-left"
+          class="text-3xl font-bold text-white mb-1 animate-slide-in-left"
           style="animation-delay: 200ms"
         >
-          Halo, Saya <span class="text-orange-400">Mu'ammar Nibros</span>
+          Halo, Saya
         </h1>
-        <p class="text-xl text-white mb-8 animate-slide-in-left" style="animation-delay: 400ms">
-          Mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan desain antarmuka.
+        <h1 class="text-5xl text-orange-400 font-bold mb-4">Mu'ammar Nibros</h1>
+        <p class="text-xl text-white mb-8 animate-slide-in-left text-justify" style="animation-delay: 400ms">
+          Saya adalah Mahasiswa Teknik Informatika yang memiliki semangat tinggi dalam bidang
+          pengembangan web dan desain antarmuka. Saya selalu berfokus pada detail desain yang menarik sekaligus
+          fungsionalitas yang optimal. Saya tertarik untuk terus belajar teknologi baru serta
+          berkontribusi dalam menciptakan solusi digital yang inovatif dan user-friendly.”
         </p>
 
         <a
           href="#kontak"
-          class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue- 700 transition-colors duration-300 inline-block animate-slide-in-left"
+          class="bg-blue-600 text-white font-bold py-3 px-6 mb-8 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block animate-slide-in-left"
           style="animation-delay: 600ms"
         >
           Hubungi Saya
         </a>
+
+        <div class="flex justify-start gap-8 mb-8">
+          <a href="https://www.instagram.com/m.nibros27" target="_blank">
+            <img
+              src="/img/ig.png"
+              alt="Instagram"
+              class="w-8 h-8 hover:scale-110 transition duration-300"
+            />
+          </a>
+          <a href="https://www.tiktok.com/@m.nibros27" target="_blank">
+            <img
+              src="/img/tik-tok.png"
+              alt="TikTok"
+              class="w-8 h-8 hover:scale-110 transition duration-300"
+            />
+          </a>
+          <a href="https://x.com/slitteryc20197" target="_blank">
+            <img
+              src="/img/twitter.png"
+              alt="Twitter"
+              class="w-8 h-8 hover:scale-110 transition duration-300"
+            />
+          </a>
+        </div>
       </div>
+
       <div class="md:w-1/2 flex justify-center animate-slide-in-right">
-      
-      </div>
-      <div class="col-6 text-center">
-        <div id="lottie" class="ps-5" style="max-width: 800px; margin: auto"></div>
+        <img
+          src="/img/pofil.jpeg"
+          alt="Foto Profil"
+          class="w-60 h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-2xl border-4 border-orange-400 transition-all duration-500 hover:grayscale hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.6)]"
+        />
       </div>
     </section>
   </header>
 </template>
 
-<script setup>
-import { onMounted } from 'vue'
-import lottie from 'lottie-web'
-import animationData from '../assets/Artboard 1.json'
+<style>
+html,
+body {
+  height: 100%;
+  background-color: #121212;
+}
 
-onMounted(() => {
-  lottie.loadAnimation({
-    container: document.getElementById('lottie'),
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-  })
-})
-</script>
+.social-icons {
+  display: flex;
+  margin: 0 120px;
+}
+</style>

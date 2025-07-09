@@ -17,7 +17,7 @@ try { const response = await axios.get('http://localhost:3000/api/education'); e
 <div class="relative">
 <div class="absolute h-full border-r-2 border-white" style="left: 50%;"></div>
 <div v-for="(edu, index) in educationHistory" :key="edu.id" class="mb-8 flex justify-between
-items-center w-full">
+items-center w-full ">
 <div v-if="index % 2 === 0" class="w-full flex">
 <div class="w-1/2 pr-8 text-right"><p class="font-semibold text-orange-400">{{ edu.period
 

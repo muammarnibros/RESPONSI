@@ -17,10 +17,6 @@ transform: translateY(0px);
   position: relative;
 }
 
-  #lottie path  {
-  display: none;
-}
-
 .bg-wallpaper{
   background-image: url("../assets/wallpr.jpg");
   background-size:100% ;
