@@ -1,4 +1,5 @@
 <script setup>
+import Navbar from '@/components/NavbarVue.vue';
 import Hero from '@/components/HeroVue.vue';
 import Education from '@/components/EducationVue.vue';
 import Skills from '@/components/SkillsVue.vue';
@@ -7,6 +8,7 @@ import Contact from '@/components/ContactVue.vue';
 </script>
 <template>
 <div>
+<Navbar />
 <main>
 <Hero />
 <div v-animate-on-scroll><Education /></div>
