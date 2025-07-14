@@ -2,7 +2,7 @@
   <header class="bg-wallpaper bg-cover bg-center h-screen flex items-center">
     <section
       id="profil"
-      class="container mx-auto px-6 pt-32 py-6 pb-0 flex flex-col md:flex-row items-center gap-6"
+      class="container mx-auto px-6 pt-40 pb-0 flex flex-col md:flex-row items-center gap-6"
     >
       <div class="md:w-2/3 text-center md:text-left">
         <h1
@@ -27,7 +27,7 @@
           Hubungi Saya
         </a>
 
-        <div class="flex justify-center gap-8 mb-8 w-full">
+        <div class="flex justify-center md:justify-start gap-8 mb-8 w-full">
           <a href="https://www.instagram.com/m.nibros27" target="_blank">
             <img
               src="/img/ig.png"
@@ -52,11 +52,11 @@
         </div>
       </div>
 
-      <div class="md:w-1/2 flex justify-center animate-slide-in-right mb-12">
+      <div class="md:w-1/2 flex justify-center animate-slide-in-right mb-16">
         <img
           src="/img/pofil.jpeg"
           alt="Foto Profil"
-          class="w-60 h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-2xl border-4 border-orange-400 transition-all duration-500 hover:grayscale hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.6)]"
+          class="w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-full object-cover shadow-2xl border-4 border-orange-400 transition-all duration-500 hover:grayscale hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.6)]"
         />
       </div>
     </section>
