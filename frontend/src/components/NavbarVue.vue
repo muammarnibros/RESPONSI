@@ -22,6 +22,9 @@ transition-all duration-300">Kontak</a></li>
 
 <style>
 .bg-navbar {
+  top: 0;
+  width: 100%;
+  z-index: 999;
   background-color: transparent;
   backdrop-filter: blur(3px); 
 }
