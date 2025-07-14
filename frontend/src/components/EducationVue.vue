@@ -2,6 +2,7 @@
   <section
     id="pendidikan"
     class="py-20 bg-gradient-to-r min-h-screen font-sans overflow-x-hidden"
+    style="background-color: #121212;"
   >
     <div class="container mx-auto px-4 sm:px-6">
       <!-- Section Title -->
@@ -134,7 +135,7 @@ onMounted(async () => {
   background-color: orange;
 }
 .card {
-  background-color: #121212(255, 255, 255, 0.08);
+  background-color: #1a1a1a(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
