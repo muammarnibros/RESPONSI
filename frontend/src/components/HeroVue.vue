@@ -27,7 +27,7 @@
           Hubungi Saya
         </a>
 
-        <div class="flex justify-start gap-8 mb-8">
+        <div class="flex justify-start gap-8 mb-8 ">
           <a href="https://www.instagram.com/m.nibros27" target="_blank">
             <img
               src="/img/ig.png"
