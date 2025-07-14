@@ -2,7 +2,7 @@
   
     <section
       id="profil"
-      class="container relative bg-wallpaper bg-cover mx-auto px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-16 lg:pt-15 pb-16 flex flex-col md:flex-row items-center gap-6"
+      class=" flex-col-reverse md:flex-row container relative bg-wallpaper bg-cover mx-auto px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-16 lg:pt-15 pb-16 flex items-center gap-6"
     >
       <div class="md:w-2/3 text-center md:text-left">
         <h1

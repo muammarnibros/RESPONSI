@@ -1,10 +1,16 @@
 import './assets/main.css';
-import { createApp } from 'vue';
-import App from './App.vue';
-import router from './router';
-import animateOnScroll from './directives/animateOnScroll'; // <-- Impor
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
 
-const app = createApp(App);
-app.directive('animate-on-scroll', animateOnScroll); // <-- Daftarkan
-app.use(router);
-app.mount('#app');
+const app = createApp(App)
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+AOS.init()
+
+
+
+app.use(router)
+
+app.mount('#app')
