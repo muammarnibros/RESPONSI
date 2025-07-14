@@ -18,7 +18,7 @@ onMounted(async () => {
 
 <template>
 <section id="skill" class="py-20 bg-gray-50" style="background-color: #171717">
-<div class="container mx-auto px-6">
+<div class="container mx-auto px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
 <SectionTitle title="Keahlian & Teknologi" />
 <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
 <div v-for="skill in skills" :key="skill.name" class="card p-6 rounded-lg text-center

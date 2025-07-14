@@ -16,7 +16,7 @@ onMounted(async () => {
 
 <template>
 <section id="proyek" class="py-20 bg-white" style="background-color: #121212;">
-<div class="container mx-auto px-6">
+<div class="container mx-auto sm:px-8 md:px-12 lg:px-16 xl:px-20 px-6">
 <SectionTitle title="Proyek Unggulan" />
 <div class="grid md:grid-cols-2 gap-12">
 <div v-for="project in projects" :key="project.title" class="rounded-lg shadow-lg

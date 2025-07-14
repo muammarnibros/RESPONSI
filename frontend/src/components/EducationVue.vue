@@ -18,7 +18,7 @@ onMounted(async () => {
 
 <template>
 <section id="pendidikan" class="py-20" style="background-color: #121212;">
-<div class="container mx-auto px-6">
+<div class="container mx-auto sm:px-8 md:px-12 lg:px-16 xl:px-20 px-6">
 <SectionTitle title="Riwayat Pendidikan" />
 <div class="relative">
 <div class="absolute h-full border-r-2 border-white" style="left: 50%;"></div>

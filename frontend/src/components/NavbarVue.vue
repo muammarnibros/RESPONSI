@@ -1,6 +1,6 @@
 <template>
 <header class="bg-navbar shadow-md sticky top-0 z-50 animate-fade-in">
-<nav class="container mx-auto px-6 py-4 flex justify-between items-center navbar-dark bg-transparent sticky-top ">
+<nav class="container mx-auto px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-4 flex justify-between items-center navbar-dark bg-transparent sticky-top ">
 <div class="text-2xl font-bold text-white">m.nibros27</div>
 <ul class="flex space-x-6">
 <li><a href="#profil" class="text-white hover:text-blue-500 transform hover:-translate-y-0.5
