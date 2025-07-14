@@ -2,7 +2,7 @@
   
     <section
       id="profil"
-      class="container mx-auto px-6 py-6 pt-40 md:pt-20 lg:pt-16 pb-16 flex flex-col md:flex-row items-center gap-6"
+      class="container mx-auto px-6 py-6 pt-28 md:pt-20 lg:pt-10 pb-16 flex flex-col md:flex-row items-center gap-6"
     >
       <div class="md:w-2/3 text-center md:text-left">
         <h1
@@ -52,7 +52,7 @@
         </div>
       </div>
 
-      <div class="md:w-1/2 flex justify-center animate-slide-in-right mb-16">
+      <div class="md:w-1/2 flex justify-center animate-slide-in-right mb-10">
         <img
           src="/img/pofil.jpeg"
           alt="Foto Profil"
