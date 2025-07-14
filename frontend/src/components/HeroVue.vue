@@ -63,12 +63,6 @@
 </template>
 
 <style>
-html,
-body {
-  height: 100%;
-  background-color: #121212;
-}
-
 .social-icons {
   display: flex;
   margin: 0 120px;
