@@ -4,7 +4,7 @@ import { RouterView } from 'vue-router';
 <template>
 <div class="font-sans bg-wallpaper bg-cover py-12 h-screen bg-center  text-white">
     <Navbar />
-    <main>
+    <main class="min-h-screen">
         <RouterView />
     </main>
 </div>
