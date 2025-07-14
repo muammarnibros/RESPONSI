@@ -4,6 +4,8 @@ import { RouterView } from 'vue-router';
 <template>
 <div class="font-sans bg-wallpaper bg-cover min-h-screen bg-center  text-white">
     <Navbar />
-<RouterView />
+    <main class="min-h-screen">
+        <RouterView />
+    </main>
 </div>
 </template>
