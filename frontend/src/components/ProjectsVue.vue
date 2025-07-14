@@ -3,12 +3,12 @@ import { ref, onMounted } from 'vue'
 import axios from 'axios'
 import SectionTitle from './SectionTitle.vue'
 
-const skills = ref([])
+const projects = ref([])
 
 onMounted(async () => {
   try {
-    const response = await axios.get('/api/skills')
-    skills.value = response.data // ✅ PERBAIKAN DI SINI
+    const response = await axios.get('/api/projects')
+    projects.value = response.data // ✅ PERBAIKAN DI SINI
   } catch (error) {
     console.error(error)
   }
