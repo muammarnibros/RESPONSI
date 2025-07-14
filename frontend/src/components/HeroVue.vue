@@ -1,8 +1,8 @@
 <template>
-  <header class="bg-wallpaper bg-cover bg-center min-h-screen pb-16 flex items-center">
+  
     <section
       id="profil"
-      class="container mx-auto px-6 py-6 pt-40 pb-0 flex flex-col md:flex-row items-center gap-6"
+      class="container mx-auto px-6 py-6 pt-40 pb-16 flex flex-col md:flex-row items-center gap-6"
     >
       <div class="md:w-2/3 text-center md:text-left">
         <h1
@@ -60,7 +60,6 @@
         />
       </div>
     </section>
-  </header>
 </template>
 
 <style>
